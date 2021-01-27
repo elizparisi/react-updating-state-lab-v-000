@@ -17,5 +17,19 @@ export default class YouTubeDebugger extends Component {
     }
   }
   
+  handleBitClick = () => {
+    
+  }
+  
+  handleResClick = () => {
+    
+  }
+  
+  render() {
+    return(
+      <button className='bitrate' onClick={this.handleBitClick}>Bitrate</button>
+      <button className='resolution' onClick={this.handleResClick}>Resolution</button>
+      )
+  }
   
 }
