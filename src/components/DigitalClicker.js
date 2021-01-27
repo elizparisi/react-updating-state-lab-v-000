@@ -7,13 +7,13 @@ export default class DigitalClicker extends Component {
   constructor() {
     super();
     this.state = {
-      counter: 0
+      timesClicked: 0
     };
   }
   
   handleClick = () => {
     let timesClicked = this.state.count + 1 
-    this.setState({count: timesClicked
+    this.setState({timesClicked: timesClicked
     })
   }
   
