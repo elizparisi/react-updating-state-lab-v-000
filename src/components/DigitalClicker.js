@@ -15,8 +15,8 @@ export default class DigitalClicker extends Component {
     this.setState(previousState => {
       return {
         timesClicked: previousState.timesClicked + 1
-        }
-      })
+      }
+    })
   }
   
   render() {
