@@ -21,16 +21,20 @@ export default class YouTubeDebugger extends Component {
     this.setState({
       settings: {
         ...this.state.settings,
+        
+    })
+  }
+  
+  handleResClick = () => {
+    this.setState({
+      settings: {
+        ...this.state.settings,
         video: {
           ...this.state.settings.video,
           resolution: '720p'
         }
       }
     })
-  }
-  
-  handleResClick = () => {
-    
   }
   
   render() {
