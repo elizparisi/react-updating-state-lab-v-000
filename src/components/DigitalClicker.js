@@ -12,8 +12,8 @@ export default class DigitalClicker extends Component {
   }
   
   handleClick = () => {
-    let newCount = this.state.count + 1 
-    this.setState({count: newCount
+    let timesClicked = this.state.count + 1 
+    this.setState({count: timesClicked
     })
   }
   
