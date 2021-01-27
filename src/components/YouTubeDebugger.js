@@ -20,8 +20,8 @@ export default class YouTubeDebugger extends Component {
   handleBitClick = () => {
     this.setState({
       settings: {
-        ...this.state.addressInfo,
-        city: 'New York City'
+        ...this.state.settings,
+        resolution: '720p'
       }
     });
   }
