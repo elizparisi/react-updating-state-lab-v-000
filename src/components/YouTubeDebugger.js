@@ -22,6 +22,7 @@ export default class YouTubeDebugger extends Component {
       settings: {
         ...this.state.settings,
         video: {
+          ...this.state.video,
           
         }
       }
