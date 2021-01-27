@@ -25,7 +25,7 @@ export default class YouTubeDebugger extends Component {
           
         }
       }
-    });
+    })
   }
   
   handleResClick = () => {
