@@ -38,10 +38,12 @@ export default class YouTubeDebugger extends Component {
     })
   }
   
-  render(){
+  render() {
     return(
+      <div>
       <button className='bitrate' onClick={this.handleBitClick}>Bitrate</button>
       <button className='resolution' onClick={this.handleResClick}>Resolution</button>
+      </div>
       )
   }
   
