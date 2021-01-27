@@ -16,6 +16,7 @@ export default class YouTubeDebugger extends Component {
       }
     }
   }
+  }
   
   handleBitClick = () => {
     this.setState({
