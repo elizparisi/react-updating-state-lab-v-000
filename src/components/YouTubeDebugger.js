@@ -21,7 +21,7 @@ export default class YouTubeDebugger extends Component {
     this.setState({
       settings: {
         ...this.state.settings,
-        
+        bitrate: 12
     })
   }
   
